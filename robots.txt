@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://LiJiarui111.github.io/al-folio/sitemap.xml
+Sitemap: https://LiJiarui111.github.io/sitemap.xml
