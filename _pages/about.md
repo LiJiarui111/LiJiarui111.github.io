@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <b>PhD Student</b> at MIT LIDS/CEE.
 
