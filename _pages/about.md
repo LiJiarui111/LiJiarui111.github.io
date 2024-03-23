@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: <b>PhD Student</b> at MIT LIDS/CEE.
 
-profile:
+profile: 
   align: right
   image: profile_half.jpg
   image_circular: false # crops the image to make it circular
