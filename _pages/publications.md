@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-See the <a href="https://scholar.google.com/citations?user=ddq45VQAAAAJ&hl=en">Google Scholar</a> for the full list of my publications.  
+See the <a href="https://scholar.google.com/citations?user=ddq45VQAAAAJ&hl=en">Google Scholar</a> for the full list of my publications. 
 
 <!-- _pages/publications.md -->
 <div class="publications">
