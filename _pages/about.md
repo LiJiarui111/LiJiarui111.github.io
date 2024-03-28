@@ -6,7 +6,7 @@ subtitle: <b>PhD Student</b> at MIT LIDS/CEE.
 
 profile: 
   align: right
-  image: profile_half.jpg
+  image: JiaruiLi.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Beijing, 2022</p>  
