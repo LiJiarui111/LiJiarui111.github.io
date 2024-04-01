@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Honored to share that I received the <a>Schoettler Fellowship</a> from MIT CEE. 
+Honored to share that I received the <a href=" ">Schoettler Fellowship</a> from MIT CEE. 
