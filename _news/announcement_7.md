@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Happy to share that I received the <a href=" ">Honor Graduates (Bachelor's) Award</a> from Peking University. 
+Happy to share that I received the <a href=" ">Honor Graduates Award (Bachelor's)</a> from Peking University. 
