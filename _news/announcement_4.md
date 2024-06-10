@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Happy to announce that I have received the <a><b>Chinese National Scholarship</b></a> (top 0.2% among all the undergraduate students) for 2023.
+Happy to announce that I have received the <a href=" ">Chinese National Scholarship</a> (top 0.2% among all the Chinese undergrads) for 2023.
