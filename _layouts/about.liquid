@@ -25,7 +25,7 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
       rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
@@ -41,15 +41,15 @@ layout: default
     <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
-    {% if page.news and site.announcements and site.announcements.enabled %}
+    {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Latest posts -->
-    {% if site.latest_posts and site.latest_posts.enabled %}
+    {% if site.latest_posts.enabled %}
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
@@ -67,14 +67,13 @@ layout: default
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="contact-icons" style="scale: 60%;">{% include social.liquid %}</div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
+        <div class="contact-note" style="scale: 95%;">{{ site.contact_note }}</div>
       </div>
     {% endif %}
-
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
-    {% endif %}
+    <!-- <a href="https://clustrmaps.com/site/1bz67"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=Kjag9rxljukZdprhx7IeEtSZJbsPvPUFFTHUheT3XRw&cl=ffffff" /></a> -->
+    <p style="margin-top:auto;vertical-align:middle"><script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=230&t=n&d=Kjag9rxljukZdprhx7IeEtSZJbsPvPUFFTHUheT3XRw&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script></p>
+    <!-- <p style="scale: 40%;"><script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=Kjag9rxljukZdprhx7IeEtSZJbsPvPUFFTHUheT3XRw"></script></p> -->
   </article>
 </div>
